@@ -5,23 +5,79 @@
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>University of Ghana - COMPUTER SCIENCE DEPARTMENT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,100;1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="HTMLPage1.html"><img src="NewFolder/logo.png"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">CATALOG</a></li>
-                    <li><a href="">STAFF PROFILE</a></li>
-                </ul>
-            </div>
-        </nav>
+   <section class="header">
+       <nav>
+           <a href="HTMLPage1.html"><img src="NewFolder/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">COURSE</a></li>
+                   <li><a href="">CATALOG</a></li>
+                   <li><a href="">STAFF PROFILE</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-chevron-circle-down" onclick="showMenu()"></i>
+       </nav>
+    <div class="text-box">
+        <h1>COMPUTER SCIENCE DEPARTMENT</h1>
+        <p>YOUR KEY TO TOP CLASS COMPUTER SCIENCE EDUCATION</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
     </section>
 
+
+    <!----------------COURSES----------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Short Courses, Undergaduate, Mphil and Msc Programmes</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Short Courses</h3>
+                <p>
+                    Our eight week intensive certificate course is open to senior high school graduates, tertiary
+                    students, school graduates, workers and the general public.
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Undergaduate</h3>
+                <p>
+                    Open the door to sought-after technology carrers with a world class Bachelor of Science in
+                    Computer Science degree.
+                </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Mphil and Msc Programmes</h3>
+                <p>
+                   Embrace world class graduate education with unique blend of cutting-edge research and
+                                                    industry experience
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 
 </body>
 </html>
