@@ -1,9 +1,10 @@
 # DCIT_205_IA
-Certainly! A README file is a great way to provide information about your website for users and developers. Below is a sample README for your computer science department website:
+README for my computer science department website:
 
 ### Computer Science Department Website
 
-Welcome to the Computer Science Department website for the University of XYZ! This website serves as a hub for information related to the department, including courses, faculty details, and ways to get in touch.
+Welcome to the Computer Science Department website for the University of Ghana! 
+This website serves as a hub for information related to the department, including courses, faculty details, and ways to get in touch.
 
 ### Table of Contents
 
@@ -14,7 +15,8 @@ Welcome to the Computer Science Department website for the University of XYZ! Th
 
 ### Overview
 
-This website is designed to provide students, faculty, and visitors with easy access to information about the Computer Science Department at the University of XYZ. It includes pages for the home, about, courses, faculty, and contact.
+This website is designed to provide students, faculty, and visitors with easy access to information about the Computer Science Department
+at the University of Ghana. It includes pages for the home, about, courses, staff,facilities,catalog,campus and contact.
 
 ### Website Structure
 
@@ -27,15 +29,19 @@ This website is designed to provide students, faculty, and visitors with easy ac
 - **STAFF:** Information about the faculty members, their expertise, and contact details.
   
 - **Contact:** A form through which users can get in touch with the department.
-- **FACILITIES
+
+- **FACILITIES** Showing various facilities in the department.
+
+- **CATALOG:** Made of testimonies by several syudents of the department.
+
+- **CAMPUS** An overview of the main campus.
 
 ### Getting Started
 
 To view the website locally, simply clone the repository and open the HTML files in your web browser.
 
 ```bash
-git clone https://github.com/your-username/computer-science-website.git
-cd computer-science-website
+git clone https://github.com/Daquiver1/DCIT_205_IA/pulls?q=10821333
 ```
 
 ### Features
@@ -46,3 +52,4 @@ cd computer-science-website
   
 - Contact form with basic HTML form validation.
 
+- basic css was also used for great design techniques.
