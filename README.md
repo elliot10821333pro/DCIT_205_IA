@@ -53,3 +53,16 @@ git clone https://github.com/Daquiver1/DCIT_205_IA/pulls?q=10821333
 - Contact form with basic HTML form validation.
 
 - basic css was also used for great design techniques.
+
+
+### screenshot of pages
+![ABOUT](ABOUTpage.png)
+![CAMPUS](CAMPUS.png)
+![COURSES](COURSES.png)
+![FACILITIES](FACILITIES.png)
+![CONTACT](CONTACTPAGE.png)
+![HOME](HOME.png)
+![Research](Projects.png)
+![Achievements](Achievements.png)
+![Testimonials](CATALOG.png)
+![STAFF](STAFF.png)
